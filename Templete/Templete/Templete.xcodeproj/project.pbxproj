@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63122C261E94F581000E2FD7 /* TempleteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63122C251E94F581000E2FD7 /* TempleteFramework.framework */; };
+		63122C301E94F786000E2FD7 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63122C2E1E94F786000E2FD7 /* ServiceViewModel.swift */; };
+		63122C321E94F794000E2FD7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63122C311E94F794000E2FD7 /* UserViewModel.swift */; };
+		63122C371E94F7EF000E2FD7 /* Advertise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63122C361E94F7EF000E2FD7 /* Advertise.swift */; };
+		633AFB671F0242470040E4DC /* APIHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AFB631F0242470040E4DC /* APIHost.swift */; };
+		633AFB681F0242470040E4DC /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AFB641F0242470040E4DC /* HttpClient.swift */; };
+		633AFB691F0242470040E4DC /* HttpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AFB651F0242470040E4DC /* HttpModel.swift */; };
+		633AFB6A1F0242470040E4DC /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AFB661F0242470040E4DC /* PathManager.swift */; };
+		63660C9B1E8F57A40089D772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63660C9A1E8F57A40089D772 /* AppDelegate.swift */; };
+		63660CA01E8F57A40089D772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63660C9E1E8F57A40089D772 /* Main.storyboard */; };
+		63660CA21E8F57A40089D772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63660CA11E8F57A40089D772 /* Assets.xcassets */; };
+		63660CA51E8F57A40089D772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63660CA31E8F57A40089D772 /* LaunchScreen.storyboard */; };
+		63660CB01E8F57A40089D772 /* TempleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63660CAF1E8F57A40089D772 /* TempleteTests.swift */; };
+		63660CBB1E8F57A40089D772 /* TempleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63660CBA1E8F57A40089D772 /* TempleteUITests.swift */; };
+		63FBEC421E94E09C00CA1640 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEC411E94E09C00CA1640 /* Extensions.swift */; };
+		63FBEC471E94E24C00CA1640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEC461E94E24C00CA1640 /* ViewController.swift */; };
+		F963463C29F8F4F1AADD0697 /* Pods_Templete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840E268280766168BEC957D /* Pods_Templete.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63660CAC1E8F57A40089D772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63660C8F1E8F57A40089D772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63660C961E8F57A40089D772;
+			remoteInfo = Templete;
+		};
+		63660CB71E8F57A40089D772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63660C8F1E8F57A40089D772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63660C961E8F57A40089D772;
+			remoteInfo = Templete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22789E898D8CFEBC7951C5ED /* Pods-Templete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templete.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templete/Pods-Templete.release.xcconfig"; sourceTree = "<group>"; };
+		2840E268280766168BEC957D /* Pods_Templete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Templete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63122BF61E94ED53000E2FD7 /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DemoFramework.framework; path = "DemoFramework/build/Debug-iphoneos/DemoFramework.framework"; sourceTree = "<group>"; };
+		63122C251E94F581000E2FD7 /* TempleteFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TempleteFramework.framework; path = "TempleteFramework/build/Debug-iphoneos/TempleteFramework.framework"; sourceTree = "<group>"; };
+		63122C2E1E94F786000E2FD7 /* ServiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		63122C311E94F794000E2FD7 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		63122C361E94F7EF000E2FD7 /* Advertise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertise.swift; sourceTree = "<group>"; };
+		633AFB631F0242470040E4DC /* APIHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHost.swift; sourceTree = "<group>"; };
+		633AFB641F0242470040E4DC /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		633AFB651F0242470040E4DC /* HttpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpModel.swift; sourceTree = "<group>"; };
+		633AFB661F0242470040E4DC /* PathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		63660C971E8F57A40089D772 /* Templete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Templete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63660C9A1E8F57A40089D772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		63660C9F1E8F57A40089D772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63660CA11E8F57A40089D772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		63660CA41E8F57A40089D772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63660CA61E8F57A40089D772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		63660CAB1E8F57A40089D772 /* TempleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63660CAF1E8F57A40089D772 /* TempleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleteTests.swift; sourceTree = "<group>"; };
+		63660CB11E8F57A40089D772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63660CB61E8F57A40089D772 /* TempleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63660CBA1E8F57A40089D772 /* TempleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleteUITests.swift; sourceTree = "<group>"; };
+		63660CBC1E8F57A40089D772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FBEC411E94E09C00CA1640 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		63FBEC461E94E24C00CA1640 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63FBEC481E94E48200CA1640 /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DemoFramework.framework; path = "DemoFramework/build/Debug-iphoneos/DemoFramework.framework"; sourceTree = "<group>"; };
+		77936A0D128849295BB5D964 /* Pods-Templete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templete/Pods-Templete.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63660C941E8F57A40089D772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63122C261E94F581000E2FD7 /* TempleteFramework.framework in Frameworks */,
+				F963463C29F8F4F1AADD0697 /* Pods_Templete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CA81E8F57A40089D772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CB31E8F57A40089D772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63122C2D1E94F786000E2FD7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				63122C2E1E94F786000E2FD7 /* ServiceViewModel.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		63122C2F1E94F786000E2FD7 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				63122C311E94F794000E2FD7 /* UserViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		63122C351E94F7EF000E2FD7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				63122C361E94F7EF000E2FD7 /* Advertise.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		63122C3A1E94FC92000E2FD7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		63282D6E1E8F9EA00083BE7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63122C351E94F7EF000E2FD7 /* Service */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		633AFB5E1F02404F0040E4DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		633AFB5F1F0241940040E4DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		633AFB601F0242150040E4DC /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				633AFB611F0242150040E4DC /* User */,
+			);
+			path = Caches;
+			sourceTree = "<group>";
+		};
+		633AFB611F0242150040E4DC /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		633AFB621F0242470040E4DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				633AFB631F0242470040E4DC /* APIHost.swift */,
+				633AFB641F0242470040E4DC /* HttpClient.swift */,
+				633AFB651F0242470040E4DC /* HttpModel.swift */,
+				633AFB661F0242470040E4DC /* PathManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		633AFB6B1F0242800040E4DC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		633AFB6C1F0243B30040E4DC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		633AFB6D1F0244890040E4DC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				63660C9A1E8F57A40089D772 /* AppDelegate.swift */,
+				63660C9E1E8F57A40089D772 /* Main.storyboard */,
+				63660CA11E8F57A40089D772 /* Assets.xcassets */,
+				63660CA31E8F57A40089D772 /* LaunchScreen.storyboard */,
+				63660CA61E8F57A40089D772 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		63660C8E1E8F57A40089D772 = {
+			isa = PBXGroup;
+			children = (
+				63660C991E8F57A40089D772 /* Templete */,
+				63660CAE1E8F57A40089D772 /* TempleteTests */,
+				63660CB91E8F57A40089D772 /* TempleteUITests */,
+				63660C981E8F57A40089D772 /* Products */,
+				ED313EED131F985455FCE27A /* Pods */,
+				B4F62F41B19671F680B3396A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63660C981E8F57A40089D772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63660C971E8F57A40089D772 /* Templete.app */,
+				63660CAB1E8F57A40089D772 /* TempleteTests.xctest */,
+				63660CB61E8F57A40089D772 /* TempleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63660C991E8F57A40089D772 /* Templete */ = {
+			isa = PBXGroup;
+			children = (
+				633AFB621F0242470040E4DC /* Services */,
+				633AFB601F0242150040E4DC /* Caches */,
+				636613B71E8F7A2E0089D772 /* Extensions */,
+				633AFB6B1F0242800040E4DC /* Helpers */,
+				63122C3A1E94FC92000E2FD7 /* Utilities */,
+				633AFB6C1F0243B30040E4DC /* Vendors */,
+				633AFB5E1F02404F0040E4DC /* Resources */,
+				63FBEC431E94E14B00CA1640 /* Controllers */,
+				63FBEC351E94984800CA1640 /* ViewModels */,
+				63282D6E1E8F9EA00083BE7A /* Models */,
+				633AFB5F1F0241940040E4DC /* Views */,
+				633AFB6D1F0244890040E4DC /* Others */,
+			);
+			path = Templete;
+			sourceTree = "<group>";
+		};
+		63660CAE1E8F57A40089D772 /* TempleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				63660CAF1E8F57A40089D772 /* TempleteTests.swift */,
+				63660CB11E8F57A40089D772 /* Info.plist */,
+			);
+			path = TempleteTests;
+			sourceTree = "<group>";
+		};
+		63660CB91E8F57A40089D772 /* TempleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63660CBA1E8F57A40089D772 /* TempleteUITests.swift */,
+				63660CBC1E8F57A40089D772 /* Info.plist */,
+			);
+			path = TempleteUITests;
+			sourceTree = "<group>";
+		};
+		636613B71E8F7A2E0089D772 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63FBEC411E94E09C00CA1640 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63FBEC351E94984800CA1640 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63122C2D1E94F786000E2FD7 /* Service */,
+				63122C2F1E94F786000E2FD7 /* User */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63FBEC431E94E14B00CA1640 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63FBEC461E94E24C00CA1640 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4F62F41B19671F680B3396A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63122C251E94F581000E2FD7 /* TempleteFramework.framework */,
+				63122BF61E94ED53000E2FD7 /* DemoFramework.framework */,
+				63FBEC481E94E48200CA1640 /* DemoFramework.framework */,
+				2840E268280766168BEC957D /* Pods_Templete.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED313EED131F985455FCE27A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77936A0D128849295BB5D964 /* Pods-Templete.debug.xcconfig */,
+				22789E898D8CFEBC7951C5ED /* Pods-Templete.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63660C961E8F57A40089D772 /* Templete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63660CBF1E8F57A40089D772 /* Build configuration list for PBXNativeTarget "Templete" */;
+			buildPhases = (
+				FC4718D02F7DCCE32924C1BA /* [CP] Check Pods Manifest.lock */,
+				63660C931E8F57A40089D772 /* Sources */,
+				63660C941E8F57A40089D772 /* Frameworks */,
+				63660C951E8F57A40089D772 /* Resources */,
+				4318930BB14525F3BE836D93 /* [CP] Embed Pods Frameworks */,
+				C16B3A0E0E754FAADC81A0A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Templete;
+			productName = Templete;
+			productReference = 63660C971E8F57A40089D772 /* Templete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63660CAA1E8F57A40089D772 /* TempleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63660CC21E8F57A40089D772 /* Build configuration list for PBXNativeTarget "TempleteTests" */;
+			buildPhases = (
+				63660CA71E8F57A40089D772 /* Sources */,
+				63660CA81E8F57A40089D772 /* Frameworks */,
+				63660CA91E8F57A40089D772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63660CAD1E8F57A40089D772 /* PBXTargetDependency */,
+			);
+			name = TempleteTests;
+			productName = TempleteTests;
+			productReference = 63660CAB1E8F57A40089D772 /* TempleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63660CB51E8F57A40089D772 /* TempleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63660CC51E8F57A40089D772 /* Build configuration list for PBXNativeTarget "TempleteUITests" */;
+			buildPhases = (
+				63660CB21E8F57A40089D772 /* Sources */,
+				63660CB31E8F57A40089D772 /* Frameworks */,
+				63660CB41E8F57A40089D772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63660CB81E8F57A40089D772 /* PBXTargetDependency */,
+			);
+			name = TempleteUITests;
+			productName = TempleteUITests;
+			productReference = 63660CB61E8F57A40089D772 /* TempleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63660C8F1E8F57A40089D772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "kang chao";
+				TargetAttributes = {
+					63660C961E8F57A40089D772 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+					};
+					63660CAA1E8F57A40089D772 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63660C961E8F57A40089D772;
+					};
+					63660CB51E8F57A40089D772 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63660C961E8F57A40089D772;
+					};
+				};
+			};
+			buildConfigurationList = 63660C921E8F57A40089D772 /* Build configuration list for PBXProject "Templete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63660C8E1E8F57A40089D772;
+			productRefGroup = 63660C981E8F57A40089D772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63660C961E8F57A40089D772 /* Templete */,
+				63660CAA1E8F57A40089D772 /* TempleteTests */,
+				63660CB51E8F57A40089D772 /* TempleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63660C951E8F57A40089D772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63660CA51E8F57A40089D772 /* LaunchScreen.storyboard in Resources */,
+				63660CA21E8F57A40089D772 /* Assets.xcassets in Resources */,
+				63660CA01E8F57A40089D772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CA91E8F57A40089D772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CB41E8F57A40089D772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4318930BB14525F3BE836D93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Templete/Pods-Templete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16B3A0E0E754FAADC81A0A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Templete/Pods-Templete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4718D02F7DCCE32924C1BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63660C931E8F57A40089D772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63122C371E94F7EF000E2FD7 /* Advertise.swift in Sources */,
+				63FBEC421E94E09C00CA1640 /* Extensions.swift in Sources */,
+				633AFB681F0242470040E4DC /* HttpClient.swift in Sources */,
+				633AFB691F0242470040E4DC /* HttpModel.swift in Sources */,
+				63122C321E94F794000E2FD7 /* UserViewModel.swift in Sources */,
+				63FBEC471E94E24C00CA1640 /* ViewController.swift in Sources */,
+				63122C301E94F786000E2FD7 /* ServiceViewModel.swift in Sources */,
+				633AFB671F0242470040E4DC /* APIHost.swift in Sources */,
+				633AFB6A1F0242470040E4DC /* PathManager.swift in Sources */,
+				63660C9B1E8F57A40089D772 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CA71E8F57A40089D772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63660CB01E8F57A40089D772 /* TempleteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63660CB21E8F57A40089D772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63660CBB1E8F57A40089D772 /* TempleteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63660CAD1E8F57A40089D772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63660C961E8F57A40089D772 /* Templete */;
+			targetProxy = 63660CAC1E8F57A40089D772 /* PBXContainerItemProxy */;
+		};
+		63660CB81E8F57A40089D772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63660C961E8F57A40089D772 /* Templete */;
+			targetProxy = 63660CB71E8F57A40089D772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63660C9E1E8F57A40089D772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63660C9F1E8F57A40089D772 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63660CA31E8F57A40089D772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63660CA41E8F57A40089D772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63660CBD1E8F57A40089D772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63660CBE1E8F57A40089D772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63660CC01E8F57A40089D772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77936A0D128849295BB5D964 /* Pods-Templete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoFramework/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/TempleteFramework/build/Debug-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Templete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.Templete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		63660CC11E8F57A40089D772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22789E898D8CFEBC7951C5ED /* Pods-Templete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoFramework/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/TempleteFramework/build/Debug-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Templete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.Templete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Release;
+		};
+		63660CC31E8F57A40089D772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = TempleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.TempleteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Templete.app/Templete";
+			};
+			name = Debug;
+		};
+		63660CC41E8F57A40089D772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = TempleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.TempleteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Templete.app/Templete";
+			};
+			name = Release;
+		};
+		63660CC61E8F57A40089D772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = TempleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.TempleteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Templete;
+			};
+			name = Debug;
+		};
+		63660CC71E8F57A40089D772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = TempleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.TempleteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Templete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63660C921E8F57A40089D772 /* Build configuration list for PBXProject "Templete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63660CBD1E8F57A40089D772 /* Debug */,
+				63660CBE1E8F57A40089D772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63660CBF1E8F57A40089D772 /* Build configuration list for PBXNativeTarget "Templete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63660CC01E8F57A40089D772 /* Debug */,
+				63660CC11E8F57A40089D772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63660CC21E8F57A40089D772 /* Build configuration list for PBXNativeTarget "TempleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63660CC31E8F57A40089D772 /* Debug */,
+				63660CC41E8F57A40089D772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63660CC51E8F57A40089D772 /* Build configuration list for PBXNativeTarget "TempleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63660CC61E8F57A40089D772 /* Debug */,
+				63660CC71E8F57A40089D772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63660C8F1E8F57A40089D772 /* Project object */;
+}
