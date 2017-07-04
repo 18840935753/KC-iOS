@@ -14,12 +14,12 @@ class Advertise: Mappable {
     
     var jDtos: [JDtos]?
     
-    required init?(map: Map){
-    
-    }
-    
     func mapping(map: Map) {
         jDtos <- map["jDtos"]
+    }
+    
+    required init?(map: Map){
+        
     }
 }
 
@@ -29,13 +29,13 @@ class JDtos: Mappable {
     var adWeight: Int?
     var adspaceId: Int?
     
-    required init?(map: Map){
-    
-    }
-    
     func mapping(map: Map) {
         adName <- map["adName"]
         adWeight <- map["adWeight"]
         adspaceId <- map["adspaceId"]
+    }
+    
+    required init?(map: Map){
+        
     }
 }

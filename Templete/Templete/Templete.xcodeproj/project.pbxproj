@@ -21,6 +21,7 @@
 		63660CA51E8F57A40089D772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63660CA31E8F57A40089D772 /* LaunchScreen.storyboard */; };
 		63660CB01E8F57A40089D772 /* TempleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63660CAF1E8F57A40089D772 /* TempleteTests.swift */; };
 		63660CBB1E8F57A40089D772 /* TempleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63660CBA1E8F57A40089D772 /* TempleteUITests.swift */; };
+		63664DC71F061E3200B8B048 /* read.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63664DC61F061E3200B8B048 /* read.txt */; };
 		63FBEC421E94E09C00CA1640 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEC411E94E09C00CA1640 /* Extensions.swift */; };
 		63FBEC471E94E24C00CA1640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEC461E94E24C00CA1640 /* ViewController.swift */; };
 		F963463C29F8F4F1AADD0697 /* Pods_Templete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840E268280766168BEC957D /* Pods_Templete.framework */; };
@@ -67,6 +68,7 @@
 		63660CB61E8F57A40089D772 /* TempleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63660CBA1E8F57A40089D772 /* TempleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleteUITests.swift; sourceTree = "<group>"; };
 		63660CBC1E8F57A40089D772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63664DC61F061E3200B8B048 /* read.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.txt; sourceTree = "<group>"; };
 		63FBEC411E94E09C00CA1640 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		63FBEC461E94E24C00CA1640 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63FBEC481E94E48200CA1640 /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DemoFramework.framework; path = "DemoFramework/build/Debug-iphoneos/DemoFramework.framework"; sourceTree = "<group>"; };
@@ -236,12 +238,14 @@
 				633AFB6B1F0242800040E4DC /* Helpers */,
 				63122C3A1E94FC92000E2FD7 /* Utilities */,
 				633AFB6C1F0243B30040E4DC /* Vendors */,
+				63664DC91F0623A400B8B048 /* Commons */,
 				633AFB5E1F02404F0040E4DC /* Resources */,
 				63FBEC431E94E14B00CA1640 /* Controllers */,
 				63FBEC351E94984800CA1640 /* ViewModels */,
 				63282D6E1E8F9EA00083BE7A /* Models */,
 				633AFB5F1F0241940040E4DC /* Views */,
 				633AFB6D1F0244890040E4DC /* Others */,
+				63664DC61F061E3200B8B048 /* read.txt */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -272,9 +276,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		63664DC91F0623A400B8B048 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		63664DCC1F06303800B8B048 /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
 		63FBEC351E94984800CA1640 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				63664DCC1F06303800B8B048 /* Policy */,
 				63122C2D1E94F786000E2FD7 /* Service */,
 				63122C2F1E94F786000E2FD7 /* User */,
 			);
@@ -424,6 +443,7 @@
 			files = (
 				63660CA51E8F57A40089D772 /* LaunchScreen.storyboard in Resources */,
 				63660CA21E8F57A40089D772 /* Assets.xcassets in Resources */,
+				63664DC71F061E3200B8B048 /* read.txt in Resources */,
 				63660CA01E8F57A40089D772 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
