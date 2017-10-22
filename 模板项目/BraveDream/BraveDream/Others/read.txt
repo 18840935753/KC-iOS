@@ -1,0 +1,15 @@
+1.   Service:       网络服务
+2.   Caches:        缓存、本地数据库
+3.   Extensions:    系统类、控件等延展
+4.   Helpers:       第三方封装公用类，与项目无耦合
+5.   Utilities:     自己封装的公用类，与项目无耦合
+6.   Vendors:       第三方库，Cocoapods无法导入的三方，如AFN、SDWebImage等(ps: 这两个库可以导入)
+7.   Commons:       自己封装的方法，与项目高耦合，例如：统一跳转股票行情的封装
+8.   Resources:     资源文件,包含字体、图片等
+9.   Controllers:   存放所有控制器
+10.  ViewModels:    所有数据管理，以功能划分不同文件夹
+11.  Models:        对象模型
+12.  Views:         视图层，封装界面视图块
+13.  Others：       系统生成的一些附带文件
+14.  Bases：        系统生成的一些附带文件
+15.  Frameworks:    第三方动态库

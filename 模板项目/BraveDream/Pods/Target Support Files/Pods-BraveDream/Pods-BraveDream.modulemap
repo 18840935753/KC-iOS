@@ -1,0 +1,6 @@
+framework module Pods_BraveDream {
+  umbrella header "Pods-BraveDream-umbrella.h"
+
+  export *
+  module * { export * }
+}

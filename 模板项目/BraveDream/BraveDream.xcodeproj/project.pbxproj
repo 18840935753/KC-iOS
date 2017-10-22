@@ -1,0 +1,1357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630742001F1C5FB20016B592 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630741FF1F1C5FB20016B592 /* Fonts.swift */; };
+		630742041F1C603D0016B592 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630742031F1C603D0016B592 /* Locations.swift */; };
+		630742071F1C66750016B592 /* MainTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630742061F1C66750016B592 /* MainTableHeader.swift */; };
+		630742101F1C81DE0016B592 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630742091F1C81DE0016B592 /* 1.jpg */; };
+		630742111F1C81DE0016B592 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420A1F1C81DE0016B592 /* 2.jpg */; };
+		630742121F1C81DE0016B592 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420B1F1C81DE0016B592 /* 3.jpg */; };
+		630742131F1C81DE0016B592 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420C1F1C81DE0016B592 /* 4.jpg */; };
+		630742141F1C81DE0016B592 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420D1F1C81DE0016B592 /* 5.jpg */; };
+		630742151F1C81DE0016B592 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420E1F1C81DE0016B592 /* 6.jpg */; };
+		630742161F1C81DE0016B592 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307420F1F1C81DE0016B592 /* 7.jpg */; };
+		630742191F1C9E970016B592 /* BlueTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630742181F1C9E970016B592 /* BlueTableHeader.swift */; };
+		630C45741F17C59F008CA61C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45731F17C59F008CA61C /* AppDelegate.swift */; };
+		630C45791F17C59F008CA61C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630C45771F17C59F008CA61C /* Main.storyboard */; };
+		630C457B1F17C59F008CA61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630C457A1F17C59F008CA61C /* Assets.xcassets */; };
+		630C457E1F17C59F008CA61C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630C457C1F17C59F008CA61C /* LaunchScreen.storyboard */; };
+		630C45891F17C59F008CA61C /* BraveDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45881F17C59F008CA61C /* BraveDreamTests.swift */; };
+		630C45941F17C59F008CA61C /* BraveDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45931F17C59F008CA61C /* BraveDreamUITests.swift */; };
+		630C45BC1F17C5EB008CA61C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45A71F17C5EB008CA61C /* Extensions.swift */; };
+		630C45BD1F17C5EB008CA61C /* Advertise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45AB1F17C5EB008CA61C /* Advertise.swift */; };
+		630C45BE1F17C5EB008CA61C /* APIHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45AE1F17C5EB008CA61C /* APIHost.swift */; };
+		630C45BF1F17C5EB008CA61C /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45AF1F17C5EB008CA61C /* HttpClient.swift */; };
+		630C45C01F17C5EB008CA61C /* HttpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45B01F17C5EB008CA61C /* HttpModel.swift */; };
+		630C45C11F17C5EB008CA61C /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45B11F17C5EB008CA61C /* PathManager.swift */; };
+		630C45C21F17C5EB008CA61C /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45B71F17C5EB008CA61C /* ServiceViewModel.swift */; };
+		630C45C31F17C5EB008CA61C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C45B91F17C5EB008CA61C /* UserViewModel.swift */; };
+		633B3EEF1F220B4500A824EE /* YellowSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B3EEE1F220B4500A824EE /* YellowSubViewController.swift */; };
+		634DE2A61F3D7C87006831B6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2A51F3D7C87006831B6 /* BaseView.swift */; };
+		634DE2A81F3D7CA5006831B6 /* StockInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2A71F3D7CA5006831B6 /* StockInfoView.swift */; };
+		634DE2AC1F3D8334006831B6 /* AMAnimatedNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2AB1F3D8334006831B6 /* AMAnimatedNumber.m */; };
+		634DE2B31F3DAB55006831B6 /* StockMarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2B21F3DAB55006831B6 /* StockMarketViewModel.swift */; };
+		634DE2C51F415E26006831B6 /* fiveLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2BE1F415E26006831B6 /* fiveLineData.json */; };
+		634DE2C61F415E26006831B6 /* kLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2BF1F415E26006831B6 /* kLineData.json */; };
+		634DE2C71F415E26006831B6 /* monthLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2C01F415E26006831B6 /* monthLineData.json */; };
+		634DE2C81F415E26006831B6 /* priceData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2C11F415E26006831B6 /* priceData.json */; };
+		634DE2C91F415E26006831B6 /* timeLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2C21F415E26006831B6 /* timeLineData.json */; };
+		634DE2CA1F415E26006831B6 /* timeStateData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2C31F415E26006831B6 /* timeStateData.json */; };
+		634DE2CB1F415E26006831B6 /* weekLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 634DE2C41F415E26006831B6 /* weekLineData.json */; };
+		634DE2D11F415E88006831B6 /* JSUKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2CD1F415E88006831B6 /* JSUKLineModel.swift */; };
+		634DE2D21F415E88006831B6 /* JSUPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2CE1F415E88006831B6 /* JSUPriceModel.swift */; };
+		634DE2D31F415E88006831B6 /* JSUStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2CF1F415E88006831B6 /* JSUStateModel.swift */; };
+		634DE2D41F415E88006831B6 /* JSUTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2D01F415E88006831B6 /* JSUTradeModel.swift */; };
+		634DE2D61F416129006831B6 /* KLineDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2D51F416129006831B6 /* KLineDataSet.swift */; };
+		634DE2D81F416178006831B6 /* KLineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2D71F416178006831B6 /* KLineEntity.swift */; };
+		634DE2DF1F41635E006831B6 /* TimeLineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE2DE1F41635E006831B6 /* TimeLineEntity.swift */; };
+		634EBC1C1F4533E200D6D9CF /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EBC1B1F4533E200D6D9CF /* Util.swift */; };
+		634EBC211F4576F600D6D9CF /* KLineCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EBC201F4576F600D6D9CF /* KLineCollectionView.swift */; };
+		634EBC231F457F2200D6D9CF /* KLineCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EBC221F457F2200D6D9CF /* KLineCollectionCell.swift */; };
+		634F43F01F42FF6E006DC44C /* StockKLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43EF1F42FF6E006DC44C /* StockKLineViewController.swift */; };
+		634F43F71F43018B006DC44C /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43F61F43018B006DC44C /* TimeLineViewController.swift */; };
+		634F43F91F4301A2006DC44C /* FiveLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43F81F4301A2006DC44C /* FiveLineViewController.swift */; };
+		634F43FB1F4301AB006DC44C /* DateLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43FA1F4301AB006DC44C /* DateLineViewController.swift */; };
+		634F43FD1F4301B5006DC44C /* MonthLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43FC1F4301B5006DC44C /* MonthLineViewController.swift */; };
+		634F43FF1F4301BE006DC44C /* WeekLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F43FE1F4301BE006DC44C /* WeekLineViewController.swift */; };
+		634F44091F43DFBD006DC44C /* KLineIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44021F43DFBD006DC44C /* KLineIndexView.swift */; };
+		634F440A1F43DFBD006DC44C /* KLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44031F43DFBD006DC44C /* KLineView.swift */; };
+		634F440B1F43DFBD006DC44C /* KLineTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44051F43DFBD006DC44C /* KLineTopView.swift */; };
+		634F44101F441EA7006DC44C /* BaseLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F440F1F441EA7006DC44C /* BaseLineViewController.swift */; };
+		634F44161F442261006DC44C /* StockKLineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44151F442261006DC44C /* StockKLineViewModel.swift */; };
+		634F441B1F442BC2006DC44C /* KBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F441A1F442BC2006DC44C /* KBaseView.swift */; };
+		634F441D1F442BCC006DC44C /* KBaseLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F441C1F442BCC006DC44C /* KBaseLineView.swift */; };
+		634F44231F443556006DC44C /* KTimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44221F443556006DC44C /* KTimeLineView.swift */; };
+		634F44251F444030006DC44C /* FiveDealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F44241F444030006DC44C /* FiveDealView.swift */; };
+		6352CE2C1F1B3330007324F7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352CE2B1F1B3330007324F7 /* Colors.swift */; };
+		6355DAB61F18976A00830FA7 /* read.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6355DAB51F18976900830FA7 /* read.txt */; };
+		6355DABA1F18979100830FA7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAB91F18979100830FA7 /* TabBarViewController.swift */; };
+		6355DACC1F189E9500830FA7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DACB1F189E9500830FA7 /* BaseViewController.swift */; };
+		6355DACE1F189EC400830FA7 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DACD1F189EC400830FA7 /* BlueViewController.swift */; };
+		6355DAD01F189EF000830FA7 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DACF1F189EF000830FA7 /* GreenViewController.swift */; };
+		6355DAD21F189EFD00830FA7 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAD11F189EFD00830FA7 /* RedViewController.swift */; };
+		6355DAD41F189F0500830FA7 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAD31F189F0500830FA7 /* WhiteViewController.swift */; };
+		6355DAD61F189F1000830FA7 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAD51F189F1000830FA7 /* YellowViewController.swift */; };
+		6355DAE41F190C1500830FA7 /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DADD1F190C1500830FA7 /* ExampleAnimateTipsContentView.swift */; };
+		6355DAE51F190C1500830FA7 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DADE1F190C1500830FA7 /* ExampleBackgroundContentView.swift */; };
+		6355DAE61F190C1500830FA7 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DADF1F190C1500830FA7 /* ExampleBasicContentView.swift */; };
+		6355DAE71F190C1500830FA7 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAE01F190C1500830FA7 /* ExampleBouncesContentView.swift */; };
+		6355DAE81F190C1500830FA7 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAE11F190C1500830FA7 /* ExampleHighlightableContentView.swift */; };
+		6355DAE91F190C1500830FA7 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAE21F190C1500830FA7 /* ExampleIrregularityContentView.swift */; };
+		6355DAEA1F190C1500830FA7 /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355DAE31F190C1500830FA7 /* ExampleTipsContentView.swift */; };
+		6355DAEE1F190C7600830FA7 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6355DADA1F1909F900830FA7 /* pop.framework */; };
+		6355DAEF1F190C7600830FA7 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6355DADA1F1909F900830FA7 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63C800581F46E17F002449C8 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C800571F46E17F002449C8 /* Commons.swift */; };
+		A8AB92278EAF010827E08389 /* Pods_BraveDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3B15DB2569DD36AAFC0853 /* Pods_BraveDream.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630C45851F17C59F008CA61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C45681F17C59F008CA61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C456F1F17C59F008CA61C;
+			remoteInfo = BraveDream;
+		};
+		630C45901F17C59F008CA61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C45681F17C59F008CA61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C456F1F17C59F008CA61C;
+			remoteInfo = BraveDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6355DAF01F190C7700830FA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6355DAEF1F190C7600830FA7 /* pop.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		630741FF1F1C5FB20016B592 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		630742031F1C603D0016B592 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		630742061F1C66750016B592 /* MainTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableHeader.swift; sourceTree = "<group>"; };
+		630742091F1C81DE0016B592 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6307420A1F1C81DE0016B592 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		6307420B1F1C81DE0016B592 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6307420C1F1C81DE0016B592 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6307420D1F1C81DE0016B592 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6307420E1F1C81DE0016B592 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		6307420F1F1C81DE0016B592 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		630742181F1C9E970016B592 /* BlueTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTableHeader.swift; sourceTree = "<group>"; };
+		630C45701F17C59F008CA61C /* BraveDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraveDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C45731F17C59F008CA61C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		630C45781F17C59F008CA61C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		630C457A1F17C59F008CA61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		630C457D1F17C59F008CA61C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630C457F1F17C59F008CA61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		630C45841F17C59F008CA61C /* BraveDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C45881F17C59F008CA61C /* BraveDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveDreamTests.swift; sourceTree = "<group>"; };
+		630C458A1F17C59F008CA61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630C458F1F17C59F008CA61C /* BraveDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C45931F17C59F008CA61C /* BraveDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveDreamUITests.swift; sourceTree = "<group>"; };
+		630C45951F17C59F008CA61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630C45A71F17C5EB008CA61C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		630C45AB1F17C5EB008CA61C /* Advertise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertise.swift; sourceTree = "<group>"; };
+		630C45AE1F17C5EB008CA61C /* APIHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHost.swift; sourceTree = "<group>"; };
+		630C45AF1F17C5EB008CA61C /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		630C45B01F17C5EB008CA61C /* HttpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpModel.swift; sourceTree = "<group>"; };
+		630C45B11F17C5EB008CA61C /* PathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		630C45B71F17C5EB008CA61C /* ServiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		630C45B91F17C5EB008CA61C /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		633B3EEE1F220B4500A824EE /* YellowSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowSubViewController.swift; sourceTree = "<group>"; };
+		634DE2A11F3D7AFD006831B6 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		634DE2A51F3D7C87006831B6 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		634DE2A71F3D7CA5006831B6 /* StockInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockInfoView.swift; sourceTree = "<group>"; };
+		634DE2AA1F3D8334006831B6 /* AMAnimatedNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAnimatedNumber.h; sourceTree = "<group>"; };
+		634DE2AB1F3D8334006831B6 /* AMAnimatedNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAnimatedNumber.m; sourceTree = "<group>"; };
+		634DE2B21F3DAB55006831B6 /* StockMarketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMarketViewModel.swift; sourceTree = "<group>"; };
+		634DE2BE1F415E26006831B6 /* fiveLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiveLineData.json; sourceTree = "<group>"; };
+		634DE2BF1F415E26006831B6 /* kLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineData.json; sourceTree = "<group>"; };
+		634DE2C01F415E26006831B6 /* monthLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monthLineData.json; sourceTree = "<group>"; };
+		634DE2C11F415E26006831B6 /* priceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = priceData.json; sourceTree = "<group>"; };
+		634DE2C21F415E26006831B6 /* timeLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineData.json; sourceTree = "<group>"; };
+		634DE2C31F415E26006831B6 /* timeStateData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeStateData.json; sourceTree = "<group>"; };
+		634DE2C41F415E26006831B6 /* weekLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weekLineData.json; sourceTree = "<group>"; };
+		634DE2CD1F415E88006831B6 /* JSUKLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUKLineModel.swift; sourceTree = "<group>"; };
+		634DE2CE1F415E88006831B6 /* JSUPriceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUPriceModel.swift; sourceTree = "<group>"; };
+		634DE2CF1F415E88006831B6 /* JSUStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUStateModel.swift; sourceTree = "<group>"; };
+		634DE2D01F415E88006831B6 /* JSUTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUTradeModel.swift; sourceTree = "<group>"; };
+		634DE2D51F416129006831B6 /* KLineDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDataSet.swift; sourceTree = "<group>"; };
+		634DE2D71F416178006831B6 /* KLineEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineEntity.swift; sourceTree = "<group>"; };
+		634DE2DE1F41635E006831B6 /* TimeLineEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineEntity.swift; sourceTree = "<group>"; };
+		634EBC1B1F4533E200D6D9CF /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		634EBC201F4576F600D6D9CF /* KLineCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineCollectionView.swift; sourceTree = "<group>"; };
+		634EBC221F457F2200D6D9CF /* KLineCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineCollectionCell.swift; sourceTree = "<group>"; };
+		634F43EF1F42FF6E006DC44C /* StockKLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockKLineViewController.swift; sourceTree = "<group>"; };
+		634F43F61F43018B006DC44C /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		634F43F81F4301A2006DC44C /* FiveLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveLineViewController.swift; sourceTree = "<group>"; };
+		634F43FA1F4301AB006DC44C /* DateLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateLineViewController.swift; sourceTree = "<group>"; };
+		634F43FC1F4301B5006DC44C /* MonthLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthLineViewController.swift; sourceTree = "<group>"; };
+		634F43FE1F4301BE006DC44C /* WeekLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekLineViewController.swift; sourceTree = "<group>"; };
+		634F44021F43DFBD006DC44C /* KLineIndexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineIndexView.swift; sourceTree = "<group>"; };
+		634F44031F43DFBD006DC44C /* KLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineView.swift; sourceTree = "<group>"; };
+		634F44051F43DFBD006DC44C /* KLineTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineTopView.swift; sourceTree = "<group>"; };
+		634F440F1F441EA7006DC44C /* BaseLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLineViewController.swift; sourceTree = "<group>"; };
+		634F44151F442261006DC44C /* StockKLineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockKLineViewModel.swift; sourceTree = "<group>"; };
+		634F441A1F442BC2006DC44C /* KBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBaseView.swift; sourceTree = "<group>"; };
+		634F441C1F442BCC006DC44C /* KBaseLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBaseLineView.swift; sourceTree = "<group>"; };
+		634F44221F443556006DC44C /* KTimeLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTimeLineView.swift; sourceTree = "<group>"; };
+		634F44241F444030006DC44C /* FiveDealView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveDealView.swift; sourceTree = "<group>"; };
+		6352CE2B1F1B3330007324F7 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6355DAB51F18976900830FA7 /* read.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.txt; sourceTree = "<group>"; };
+		6355DAB91F18979100830FA7 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6355DACB1F189E9500830FA7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6355DACD1F189EC400830FA7 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		6355DACF1F189EF000830FA7 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		6355DAD11F189EFD00830FA7 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		6355DAD31F189F0500830FA7 /* WhiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
+		6355DAD51F189F1000830FA7 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		6355DADA1F1909F900830FA7 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
+		6355DADD1F190C1500830FA7 /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		6355DADE1F190C1500830FA7 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		6355DADF1F190C1500830FA7 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		6355DAE01F190C1500830FA7 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		6355DAE11F190C1500830FA7 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		6355DAE21F190C1500830FA7 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		6355DAE31F190C1500830FA7 /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		63C800571F46E17F002449C8 /* Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		7151392701BA9DB9A8B5B51F /* Pods-BraveDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BraveDream/Pods-BraveDream.debug.xcconfig"; sourceTree = "<group>"; };
+		765BEB884623C100ED569DD4 /* Pods-BraveDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-BraveDream/Pods-BraveDream.release.xcconfig"; sourceTree = "<group>"; };
+		BD3B15DB2569DD36AAFC0853 /* Pods_BraveDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraveDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630C456D1F17C59F008CA61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6355DAEE1F190C7600830FA7 /* pop.framework in Frameworks */,
+				A8AB92278EAF010827E08389 /* Pods_BraveDream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C45811F17C59F008CA61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C458C1F17C59F008CA61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630742051F1C66490016B592 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				630742061F1C66750016B592 /* MainTableHeader.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		630742081F1C81DE0016B592 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				630742091F1C81DE0016B592 /* 1.jpg */,
+				6307420A1F1C81DE0016B592 /* 2.jpg */,
+				6307420B1F1C81DE0016B592 /* 3.jpg */,
+				6307420C1F1C81DE0016B592 /* 4.jpg */,
+				6307420D1F1C81DE0016B592 /* 5.jpg */,
+				6307420E1F1C81DE0016B592 /* 6.jpg */,
+				6307420F1F1C81DE0016B592 /* 7.jpg */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		630742171F1C9E8C0016B592 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				630742181F1C9E970016B592 /* BlueTableHeader.swift */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+		630C45671F17C59F008CA61C = {
+			isa = PBXGroup;
+			children = (
+				630C45721F17C59F008CA61C /* BraveDream */,
+				630C45871F17C59F008CA61C /* BraveDreamTests */,
+				630C45921F17C59F008CA61C /* BraveDreamUITests */,
+				630C45711F17C59F008CA61C /* Products */,
+				B5DE08B9157583E2CA9AF21E /* Pods */,
+				C97F1023A002892F01A3019E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		630C45711F17C59F008CA61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630C45701F17C59F008CA61C /* BraveDream.app */,
+				630C45841F17C59F008CA61C /* BraveDreamTests.xctest */,
+				630C458F1F17C59F008CA61C /* BraveDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630C45721F17C59F008CA61C /* BraveDream */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAD91F1909F900830FA7 /* Frameworks */,
+				630C45AD1F17C5EB008CA61C /* Services */,
+				630C45A11F17C5EB008CA61C /* Caches */,
+				6352CE2A1F1B331B007324F7 /* Globals */,
+				630C45A61F17C5EB008CA61C /* Extensions */,
+				630C45A31F17C5EB008CA61C /* Commons */,
+				630C45A81F17C5EB008CA61C /* Helpers */,
+				630C45B21F17C5EB008CA61C /* Utilities */,
+				630C45B31F17C5EB008CA61C /* Vendors */,
+				6355DAB71F18979100830FA7 /* Bases */,
+				630C45A41F17C5EB008CA61C /* Controllers */,
+				630C45B41F17C5EB008CA61C /* ViewModels */,
+				630C45A91F17C5EB008CA61C /* Models */,
+				630C45BA1F17C5EB008CA61C /* Views */,
+				630C45AC1F17C5EB008CA61C /* Resources */,
+				630C45C41F17C5FF008CA61C /* Others */,
+			);
+			path = BraveDream;
+			sourceTree = "<group>";
+		};
+		630C45871F17C59F008CA61C /* BraveDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				630C45881F17C59F008CA61C /* BraveDreamTests.swift */,
+				630C458A1F17C59F008CA61C /* Info.plist */,
+			);
+			path = BraveDreamTests;
+			sourceTree = "<group>";
+		};
+		630C45921F17C59F008CA61C /* BraveDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				630C45931F17C59F008CA61C /* BraveDreamUITests.swift */,
+				630C45951F17C59F008CA61C /* Info.plist */,
+			);
+			path = BraveDreamUITests;
+			sourceTree = "<group>";
+		};
+		630C45A11F17C5EB008CA61C /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				630C45A21F17C5EB008CA61C /* User */,
+			);
+			path = Caches;
+			sourceTree = "<group>";
+		};
+		630C45A21F17C5EB008CA61C /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		630C45A31F17C5EB008CA61C /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				63C800571F46E17F002449C8 /* Commons.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		630C45A41F17C5EB008CA61C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAC51F189E3500830FA7 /* Blue */,
+				6355DAC61F189E3500830FA7 /* Green */,
+				6355DAC71F189E3500830FA7 /* Red */,
+				6355DAC81F189E3500830FA7 /* White  */,
+				6355DAC91F189E3500830FA7 /* Yellow */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		630C45A61F17C5EB008CA61C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				630C45A71F17C5EB008CA61C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		630C45A81F17C5EB008CA61C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630C45A91F17C5EB008CA61C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630C45AA1F17C5EB008CA61C /* Service */,
+				634DE2CC1F415E88006831B6 /* KLineModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		630C45AA1F17C5EB008CA61C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				630C45AB1F17C5EB008CA61C /* Advertise.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		630C45AC1F17C5EB008CA61C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				630742081F1C81DE0016B592 /* Banner */,
+				634DE2BD1F415E26006831B6 /* KLineData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		630C45AD1F17C5EB008CA61C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630C45AE1F17C5EB008CA61C /* APIHost.swift */,
+				630C45B11F17C5EB008CA61C /* PathManager.swift */,
+				630C45AF1F17C5EB008CA61C /* HttpClient.swift */,
+				630C45B01F17C5EB008CA61C /* HttpModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		630C45B21F17C5EB008CA61C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				634EBC1B1F4533E200D6D9CF /* Util.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		630C45B31F17C5EB008CA61C /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2A91F3D8334006831B6 /* AMAnimatedNumber */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		630C45B41F17C5EB008CA61C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2AD1F3DAA97006831B6 /* Stock */,
+				630C45B51F17C5EB008CA61C /* Policy */,
+				630C45B61F17C5EB008CA61C /* Service */,
+				630C45B81F17C5EB008CA61C /* User */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		630C45B51F17C5EB008CA61C /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		630C45B61F17C5EB008CA61C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				630C45B71F17C5EB008CA61C /* ServiceViewModel.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		630C45B81F17C5EB008CA61C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				630C45B91F17C5EB008CA61C /* UserViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		630C45BA1F17C5EB008CA61C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2A21F3D7C26006831B6 /* White */,
+				630742171F1C9E8C0016B592 /* Blue */,
+				630742051F1C66490016B592 /* Green */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		630C45C41F17C5FF008CA61C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				630C45731F17C59F008CA61C /* AppDelegate.swift */,
+				634DE2A11F3D7AFD006831B6 /* BridgeHeader.h */,
+				6355DAB51F18976900830FA7 /* read.txt */,
+				630C45771F17C59F008CA61C /* Main.storyboard */,
+				630C457A1F17C59F008CA61C /* Assets.xcassets */,
+				630C457C1F17C59F008CA61C /* LaunchScreen.storyboard */,
+				630C457F1F17C59F008CA61C /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		633B3EED1F220B2600A824EE /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				633B3EEE1F220B4500A824EE /* YellowSubViewController.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		634DE2A21F3D7C26006831B6 /* White */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2A71F3D7CA5006831B6 /* StockInfoView.swift */,
+				634F44001F43DFBD006DC44C /* StockKLine */,
+			);
+			path = White;
+			sourceTree = "<group>";
+		};
+		634DE2A31F3D7C60006831B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		634DE2A41F3D7C60006831B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2A51F3D7C87006831B6 /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		634DE2A91F3D8334006831B6 /* AMAnimatedNumber */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2AA1F3D8334006831B6 /* AMAnimatedNumber.h */,
+				634DE2AB1F3D8334006831B6 /* AMAnimatedNumber.m */,
+			);
+			path = AMAnimatedNumber;
+			sourceTree = "<group>";
+		};
+		634DE2AD1F3DAA97006831B6 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2B21F3DAB55006831B6 /* StockMarketViewModel.swift */,
+				634F44151F442261006DC44C /* StockKLineViewModel.swift */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		634DE2BD1F415E26006831B6 /* KLineData */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2BE1F415E26006831B6 /* fiveLineData.json */,
+				634DE2BF1F415E26006831B6 /* kLineData.json */,
+				634DE2C01F415E26006831B6 /* monthLineData.json */,
+				634DE2C11F415E26006831B6 /* priceData.json */,
+				634DE2C21F415E26006831B6 /* timeLineData.json */,
+				634DE2C31F415E26006831B6 /* timeStateData.json */,
+				634DE2C41F415E26006831B6 /* weekLineData.json */,
+			);
+			path = KLineData;
+			sourceTree = "<group>";
+		};
+		634DE2CC1F415E88006831B6 /* KLineModel */ = {
+			isa = PBXGroup;
+			children = (
+				634DE2DE1F41635E006831B6 /* TimeLineEntity.swift */,
+				634DE2D71F416178006831B6 /* KLineEntity.swift */,
+				634DE2D51F416129006831B6 /* KLineDataSet.swift */,
+				634DE2CD1F415E88006831B6 /* JSUKLineModel.swift */,
+				634DE2CE1F415E88006831B6 /* JSUPriceModel.swift */,
+				634DE2CF1F415E88006831B6 /* JSUStateModel.swift */,
+				634DE2D01F415E88006831B6 /* JSUTradeModel.swift */,
+			);
+			path = KLineModel;
+			sourceTree = "<group>";
+		};
+		634F43EC1F42FF2F006DC44C /* StockKLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43EF1F42FF6E006DC44C /* StockKLineViewController.swift */,
+				634F440E1F441E9A006DC44C /* BaseLine */,
+				634F43F41F430145006DC44C /* TimeLine */,
+				634F43F21F430145006DC44C /* FiveLine */,
+				634F43F11F430145006DC44C /* DateLine */,
+				634F43F51F430145006DC44C /* WeekLine */,
+				634F43F31F430145006DC44C /* MonthLine */,
+			);
+			path = StockKLine;
+			sourceTree = "<group>";
+		};
+		634F43F11F430145006DC44C /* DateLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43FA1F4301AB006DC44C /* DateLineViewController.swift */,
+			);
+			path = DateLine;
+			sourceTree = "<group>";
+		};
+		634F43F21F430145006DC44C /* FiveLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43F81F4301A2006DC44C /* FiveLineViewController.swift */,
+			);
+			path = FiveLine;
+			sourceTree = "<group>";
+		};
+		634F43F31F430145006DC44C /* MonthLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43FC1F4301B5006DC44C /* MonthLineViewController.swift */,
+			);
+			path = MonthLine;
+			sourceTree = "<group>";
+		};
+		634F43F41F430145006DC44C /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43F61F43018B006DC44C /* TimeLineViewController.swift */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		634F43F51F430145006DC44C /* WeekLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F43FE1F4301BE006DC44C /* WeekLineViewController.swift */,
+			);
+			path = WeekLine;
+			sourceTree = "<group>";
+		};
+		634F44001F43DFBD006DC44C /* StockKLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F44191F442AED006DC44C /* TimeLine */,
+				634F44011F43DFBD006DC44C /* KLine */,
+				634F44041F43DFBD006DC44C /* KLineTop */,
+				634F44061F43DFBD006DC44C /* TimeLineBase */,
+			);
+			path = StockKLine;
+			sourceTree = "<group>";
+		};
+		634F44011F43DFBD006DC44C /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F44021F43DFBD006DC44C /* KLineIndexView.swift */,
+				634F44031F43DFBD006DC44C /* KLineView.swift */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		634F44041F43DFBD006DC44C /* KLineTop */ = {
+			isa = PBXGroup;
+			children = (
+				634F44051F43DFBD006DC44C /* KLineTopView.swift */,
+				634EBC201F4576F600D6D9CF /* KLineCollectionView.swift */,
+				634EBC221F457F2200D6D9CF /* KLineCollectionCell.swift */,
+			);
+			path = KLineTop;
+			sourceTree = "<group>";
+		};
+		634F44061F43DFBD006DC44C /* TimeLineBase */ = {
+			isa = PBXGroup;
+			children = (
+				634F441A1F442BC2006DC44C /* KBaseView.swift */,
+				634F441C1F442BCC006DC44C /* KBaseLineView.swift */,
+			);
+			path = TimeLineBase;
+			sourceTree = "<group>";
+		};
+		634F440E1F441E9A006DC44C /* BaseLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F440F1F441EA7006DC44C /* BaseLineViewController.swift */,
+			);
+			path = BaseLine;
+			sourceTree = "<group>";
+		};
+		634F44191F442AED006DC44C /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				634F44221F443556006DC44C /* KTimeLineView.swift */,
+				634F44241F444030006DC44C /* FiveDealView.swift */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		6352CE2A1F1B331B007324F7 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				6352CE2B1F1B3330007324F7 /* Colors.swift */,
+				630741FF1F1C5FB20016B592 /* Fonts.swift */,
+				630742031F1C603D0016B592 /* Locations.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		6355DAB71F18979100830FA7 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAB81F18979100830FA7 /* TabBar */,
+				6355DACA1F189E7D00830FA7 /* Controller */,
+				634DE2A31F3D7C60006831B6 /* Model */,
+				634DE2A41F3D7C60006831B6 /* View */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		6355DAB81F18979100830FA7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAB91F18979100830FA7 /* TabBarViewController.swift */,
+				6355DADC1F190C1500830FA7 /* Content */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6355DAC51F189E3500830FA7 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				6355DACD1F189EC400830FA7 /* BlueViewController.swift */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+		6355DAC61F189E3500830FA7 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				6355DACF1F189EF000830FA7 /* GreenViewController.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		6355DAC71F189E3500830FA7 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAD11F189EFD00830FA7 /* RedViewController.swift */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		6355DAC81F189E3500830FA7 /* White  */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAD31F189F0500830FA7 /* WhiteViewController.swift */,
+				634F43EC1F42FF2F006DC44C /* StockKLine */,
+			);
+			path = "White ";
+			sourceTree = "<group>";
+		};
+		6355DAC91F189E3500830FA7 /* Yellow */ = {
+			isa = PBXGroup;
+			children = (
+				6355DAD51F189F1000830FA7 /* YellowViewController.swift */,
+				633B3EED1F220B2600A824EE /* Sub */,
+			);
+			path = Yellow;
+			sourceTree = "<group>";
+		};
+		6355DACA1F189E7D00830FA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6355DACB1F189E9500830FA7 /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6355DAD91F1909F900830FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6355DADA1F1909F900830FA7 /* pop.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6355DADC1F190C1500830FA7 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				6355DADD1F190C1500830FA7 /* ExampleAnimateTipsContentView.swift */,
+				6355DADE1F190C1500830FA7 /* ExampleBackgroundContentView.swift */,
+				6355DADF1F190C1500830FA7 /* ExampleBasicContentView.swift */,
+				6355DAE01F190C1500830FA7 /* ExampleBouncesContentView.swift */,
+				6355DAE11F190C1500830FA7 /* ExampleHighlightableContentView.swift */,
+				6355DAE21F190C1500830FA7 /* ExampleIrregularityContentView.swift */,
+				6355DAE31F190C1500830FA7 /* ExampleTipsContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		B5DE08B9157583E2CA9AF21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7151392701BA9DB9A8B5B51F /* Pods-BraveDream.debug.xcconfig */,
+				765BEB884623C100ED569DD4 /* Pods-BraveDream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C97F1023A002892F01A3019E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B15DB2569DD36AAFC0853 /* Pods_BraveDream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630C456F1F17C59F008CA61C /* BraveDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C45981F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDream" */;
+			buildPhases = (
+				B2E7B8B877118A32BB525573 /* [CP] Check Pods Manifest.lock */,
+				630C456C1F17C59F008CA61C /* Sources */,
+				630C456D1F17C59F008CA61C /* Frameworks */,
+				630C456E1F17C59F008CA61C /* Resources */,
+				9A9199DF3978B90AF1D11D2E /* [CP] Embed Pods Frameworks */,
+				FC3F92D26BBE9981ACF0FAD3 /* [CP] Copy Pods Resources */,
+				6355DAF01F190C7700830FA7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraveDream;
+			productName = BraveDream;
+			productReference = 630C45701F17C59F008CA61C /* BraveDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630C45831F17C59F008CA61C /* BraveDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C459B1F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDreamTests" */;
+			buildPhases = (
+				630C45801F17C59F008CA61C /* Sources */,
+				630C45811F17C59F008CA61C /* Frameworks */,
+				630C45821F17C59F008CA61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C45861F17C59F008CA61C /* PBXTargetDependency */,
+			);
+			name = BraveDreamTests;
+			productName = BraveDreamTests;
+			productReference = 630C45841F17C59F008CA61C /* BraveDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		630C458E1F17C59F008CA61C /* BraveDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C459E1F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDreamUITests" */;
+			buildPhases = (
+				630C458B1F17C59F008CA61C /* Sources */,
+				630C458C1F17C59F008CA61C /* Frameworks */,
+				630C458D1F17C59F008CA61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C45911F17C59F008CA61C /* PBXTargetDependency */,
+			);
+			name = BraveDreamUITests;
+			productName = BraveDreamUITests;
+			productReference = 630C458F1F17C59F008CA61C /* BraveDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630C45681F17C59F008CA61C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "kang chao";
+				TargetAttributes = {
+					630C456F1F17C59F008CA61C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+					};
+					630C45831F17C59F008CA61C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 630C456F1F17C59F008CA61C;
+					};
+					630C458E1F17C59F008CA61C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SYFDWE56AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 630C456F1F17C59F008CA61C;
+					};
+				};
+			};
+			buildConfigurationList = 630C456B1F17C59F008CA61C /* Build configuration list for PBXProject "BraveDream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630C45671F17C59F008CA61C;
+			productRefGroup = 630C45711F17C59F008CA61C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C456F1F17C59F008CA61C /* BraveDream */,
+				630C45831F17C59F008CA61C /* BraveDreamTests */,
+				630C458E1F17C59F008CA61C /* BraveDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630C456E1F17C59F008CA61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630742161F1C81DE0016B592 /* 7.jpg in Resources */,
+				634DE2C61F415E26006831B6 /* kLineData.json in Resources */,
+				634DE2C81F415E26006831B6 /* priceData.json in Resources */,
+				630742131F1C81DE0016B592 /* 4.jpg in Resources */,
+				630742111F1C81DE0016B592 /* 2.jpg in Resources */,
+				634DE2CB1F415E26006831B6 /* weekLineData.json in Resources */,
+				630C457E1F17C59F008CA61C /* LaunchScreen.storyboard in Resources */,
+				630742141F1C81DE0016B592 /* 5.jpg in Resources */,
+				634DE2C51F415E26006831B6 /* fiveLineData.json in Resources */,
+				630742151F1C81DE0016B592 /* 6.jpg in Resources */,
+				634DE2C71F415E26006831B6 /* monthLineData.json in Resources */,
+				634DE2CA1F415E26006831B6 /* timeStateData.json in Resources */,
+				634DE2C91F415E26006831B6 /* timeLineData.json in Resources */,
+				630C457B1F17C59F008CA61C /* Assets.xcassets in Resources */,
+				6355DAB61F18976A00830FA7 /* read.txt in Resources */,
+				630C45791F17C59F008CA61C /* Main.storyboard in Resources */,
+				630742121F1C81DE0016B592 /* 3.jpg in Resources */,
+				630742101F1C81DE0016B592 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C45821F17C59F008CA61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C458D1F17C59F008CA61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A9199DF3978B90AF1D11D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraveDream/Pods-BraveDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E7B8B877118A32BB525573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3F92D26BBE9981ACF0FAD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraveDream/Pods-BraveDream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630C456C1F17C59F008CA61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634F44251F444030006DC44C /* FiveDealView.swift in Sources */,
+				634DE2D31F415E88006831B6 /* JSUStateModel.swift in Sources */,
+				630C45BE1F17C5EB008CA61C /* APIHost.swift in Sources */,
+				630742191F1C9E970016B592 /* BlueTableHeader.swift in Sources */,
+				634F441D1F442BCC006DC44C /* KBaseLineView.swift in Sources */,
+				63C800581F46E17F002449C8 /* Commons.swift in Sources */,
+				6352CE2C1F1B3330007324F7 /* Colors.swift in Sources */,
+				634DE2D11F415E88006831B6 /* JSUKLineModel.swift in Sources */,
+				634F44101F441EA7006DC44C /* BaseLineViewController.swift in Sources */,
+				6355DABA1F18979100830FA7 /* TabBarViewController.swift in Sources */,
+				630C45BD1F17C5EB008CA61C /* Advertise.swift in Sources */,
+				630742041F1C603D0016B592 /* Locations.swift in Sources */,
+				634EBC231F457F2200D6D9CF /* KLineCollectionCell.swift in Sources */,
+				634EBC1C1F4533E200D6D9CF /* Util.swift in Sources */,
+				6355DAD41F189F0500830FA7 /* WhiteViewController.swift in Sources */,
+				634DE2D41F415E88006831B6 /* JSUTradeModel.swift in Sources */,
+				634DE2D21F415E88006831B6 /* JSUPriceModel.swift in Sources */,
+				634DE2AC1F3D8334006831B6 /* AMAnimatedNumber.m in Sources */,
+				630C45C31F17C5EB008CA61C /* UserViewModel.swift in Sources */,
+				630742001F1C5FB20016B592 /* Fonts.swift in Sources */,
+				634F440B1F43DFBD006DC44C /* KLineTopView.swift in Sources */,
+				6355DAE51F190C1500830FA7 /* ExampleBackgroundContentView.swift in Sources */,
+				6355DAD61F189F1000830FA7 /* YellowViewController.swift in Sources */,
+				634F43FD1F4301B5006DC44C /* MonthLineViewController.swift in Sources */,
+				634DE2B31F3DAB55006831B6 /* StockMarketViewModel.swift in Sources */,
+				6355DAE41F190C1500830FA7 /* ExampleAnimateTipsContentView.swift in Sources */,
+				6355DAE61F190C1500830FA7 /* ExampleBasicContentView.swift in Sources */,
+				634F44091F43DFBD006DC44C /* KLineIndexView.swift in Sources */,
+				634F44231F443556006DC44C /* KTimeLineView.swift in Sources */,
+				634F43FB1F4301AB006DC44C /* DateLineViewController.swift in Sources */,
+				6355DAEA1F190C1500830FA7 /* ExampleTipsContentView.swift in Sources */,
+				634F43F91F4301A2006DC44C /* FiveLineViewController.swift in Sources */,
+				6355DACC1F189E9500830FA7 /* BaseViewController.swift in Sources */,
+				634EBC211F4576F600D6D9CF /* KLineCollectionView.swift in Sources */,
+				6355DAE91F190C1500830FA7 /* ExampleIrregularityContentView.swift in Sources */,
+				6355DAD01F189EF000830FA7 /* GreenViewController.swift in Sources */,
+				630742071F1C66750016B592 /* MainTableHeader.swift in Sources */,
+				634DE2D61F416129006831B6 /* KLineDataSet.swift in Sources */,
+				634F43F71F43018B006DC44C /* TimeLineViewController.swift in Sources */,
+				630C45BC1F17C5EB008CA61C /* Extensions.swift in Sources */,
+				634DE2A61F3D7C87006831B6 /* BaseView.swift in Sources */,
+				634F43F01F42FF6E006DC44C /* StockKLineViewController.swift in Sources */,
+				630C45C11F17C5EB008CA61C /* PathManager.swift in Sources */,
+				6355DACE1F189EC400830FA7 /* BlueViewController.swift in Sources */,
+				6355DAE81F190C1500830FA7 /* ExampleHighlightableContentView.swift in Sources */,
+				6355DAD21F189EFD00830FA7 /* RedViewController.swift in Sources */,
+				634DE2A81F3D7CA5006831B6 /* StockInfoView.swift in Sources */,
+				630C45C01F17C5EB008CA61C /* HttpModel.swift in Sources */,
+				634DE2D81F416178006831B6 /* KLineEntity.swift in Sources */,
+				634F441B1F442BC2006DC44C /* KBaseView.swift in Sources */,
+				634F440A1F43DFBD006DC44C /* KLineView.swift in Sources */,
+				630C45BF1F17C5EB008CA61C /* HttpClient.swift in Sources */,
+				630C45C21F17C5EB008CA61C /* ServiceViewModel.swift in Sources */,
+				634F43FF1F4301BE006DC44C /* WeekLineViewController.swift in Sources */,
+				633B3EEF1F220B4500A824EE /* YellowSubViewController.swift in Sources */,
+				630C45741F17C59F008CA61C /* AppDelegate.swift in Sources */,
+				6355DAE71F190C1500830FA7 /* ExampleBouncesContentView.swift in Sources */,
+				634F44161F442261006DC44C /* StockKLineViewModel.swift in Sources */,
+				634DE2DF1F41635E006831B6 /* TimeLineEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C45801F17C59F008CA61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C45891F17C59F008CA61C /* BraveDreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C458B1F17C59F008CA61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C45941F17C59F008CA61C /* BraveDreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630C45861F17C59F008CA61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C456F1F17C59F008CA61C /* BraveDream */;
+			targetProxy = 630C45851F17C59F008CA61C /* PBXContainerItemProxy */;
+		};
+		630C45911F17C59F008CA61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C456F1F17C59F008CA61C /* BraveDream */;
+			targetProxy = 630C45901F17C59F008CA61C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630C45771F17C59F008CA61C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630C45781F17C59F008CA61C /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		630C457C1F17C59F008CA61C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630C457D1F17C59F008CA61C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630C45961F17C59F008CA61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630C45971F17C59F008CA61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630C45991F17C59F008CA61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7151392701BA9DB9A8B5B51F /* Pods-BraveDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraveDream/Frameworks",
+				);
+				INFOPLIST_FILE = BraveDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BraveDream/Others/BridgeHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		630C459A1F17C59F008CA61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765BEB884623C100ED569DD4 /* Pods-BraveDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraveDream/Frameworks",
+				);
+				INFOPLIST_FILE = BraveDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BraveDream/Others/BridgeHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		630C459C1F17C59F008CA61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = BraveDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BraveDream.app/BraveDream";
+			};
+			name = Debug;
+		};
+		630C459D1F17C59F008CA61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = BraveDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BraveDream.app/BraveDream";
+			};
+			name = Release;
+		};
+		630C459F1F17C59F008CA61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = BraveDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BraveDream;
+			};
+			name = Debug;
+		};
+		630C45A01F17C59F008CA61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SYFDWE56AS;
+				INFOPLIST_FILE = BraveDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kang-chao.BraveDreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BraveDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630C456B1F17C59F008CA61C /* Build configuration list for PBXProject "BraveDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C45961F17C59F008CA61C /* Debug */,
+				630C45971F17C59F008CA61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C45981F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C45991F17C59F008CA61C /* Debug */,
+				630C459A1F17C59F008CA61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C459B1F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C459C1F17C59F008CA61C /* Debug */,
+				630C459D1F17C59F008CA61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C459E1F17C59F008CA61C /* Build configuration list for PBXNativeTarget "BraveDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C459F1F17C59F008CA61C /* Debug */,
+				630C45A01F17C59F008CA61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630C45681F17C59F008CA61C /* Project object */;
+}
